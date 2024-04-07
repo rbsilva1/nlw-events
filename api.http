@@ -25,3 +25,11 @@ GET http://localhost:3000/events/57e4a246-427e-4b46-b875-e8f301de808e
 ###
 
 GET http://localhost:3000/attendees/1/badge
+
+###
+
+GET http://localhost:3000/attendees/1/check-in
+
+###
+
+GET http://localhost:3000/events/57e4a246-427e-4b46-b875-e8f301de808e/attendees?query=rodrigo
