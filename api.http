@@ -6,3 +6,22 @@ Content-Type: application/json
   "details": "Um evento para quem é apaixonado por programacao",
   "maximumAttendees": 100
 } 
+
+###
+
+POST http://localhost:3000/events/57e4a246-427e-4b46-b875-e8f301de808e/attendees
+Content-Type: application/json
+
+{
+  "name": "Rodrigo Belarmino",
+  "email": "rodrigo@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/events/57e4a246-427e-4b46-b875-e8f301de808e
+
+
+###
+
+GET http://localhost:3000/attendees/1/badge
